@@ -1,0 +1,76 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!--     <h1>this is pay page</h1>
+ -->    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face payment : NO CARD, NO CASH, and NO PHONE for Payment</title>
+    <link rel="icon" href="{% static './img/favicon.ico' %}>
+    <!--*************************************************************************-->
+    <!-- splide Slider link -->
+    <link rel="stylesheet" href="{% static './css/slider/owl.carousel.min.css' %}">
+    <!-- fontawesome link -->
+    <script src="https://kit.fontawesome.com/db3f17a78b.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap Link-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <!-- custom Stylesheet -->
+    <link rel="stylesheet" href="{% static './css/custom/style.css' %}">
+    <!--*************************************************************************-->
+</head>
+<body>
+                <!-- top-2 -->
+            <div class="row" id="top_1_rw_2">
+                <!-- display visibile contents -->
+                <div class="top_1_rw_2_main">
+                     <div class="nav-icon">
+                        <i class="fas fa-bars" onclick="openmega()"></i>
+                    </div> 
+                    <div class="pytm-logo">
+                        <img src="{% static 'img/logo.jpg' %}" alt="Logo" width="50px">
+                    </div>
+                <a href="{% url 'Home' %}">
+                    <div class="paybyface">
+                       <p>PAY BY FACE</p>
+                    </div>
+                </a>
+                    <div class="top-1-content-main">
+                            <div class="top-1-content-box">
+                                <img src="{% static 'img/Top-1/1.gif' %}" alt="gif">
+                                <a href="{% url 'register'%}">Register your self for the first time</a>
+                            </div>
+                        </a>
+                            <div class="top-1-content-box">
+                                <img src="{% static '/img/Top-1/1.svg' %}" alt="svg">
+                                <a href="{% url 'pay1'%}">PAY</a>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="top-1-content-box">
+                                <i class="fas fa-wallet"></i>
+                                <p>How it Works ?</p>
+                            </div>
+                        </a>
+                                            
+                    </div>
+                </div>
+                <!-- /display visibile contents -->
+               </div>
+            <center>
+                <img class="paymentdone" src="{% static 'img/How-it-Works.png' %}" alt="Logo" width="1350px" height="600px">
+                <!-- <img class="paymentdone" src="{% static 'img/.jpg' %}" alt="Logo" width="1536px" height="618px"> -->
+            </center>
+
+            <br><br>
+             <!-- <div class="titlecontainer">
+                    <h1>NO CARD, NO CASH, and NO PHONE for Payment</h1>
+                    <p>Challenge Track 1:Face Recognition</p>
+                    </div>  -->
+             
+           </body>
+           </html>
+            
