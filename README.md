@@ -1,6 +1,8 @@
 # PAY-BY-FACE
 “NO CARD, NO CASH, and NO PHONE for Payment:  Do hustle free shopping with enhanced Security using FACIAL RECOGNITION “ 
 
+My Project Name is:"myworld"
+My App Name is:"members"
 /******************install django and set it up in your device.**************/
 
 create virtual environment
